@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sayhi.sh'
+                sh './sayhi.sh'
                 sh '''echo
                     echo "Multiline shell steps works too"
                     ls -lah
