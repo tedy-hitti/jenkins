@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hi tedy"
+echo "hiii tedy"
